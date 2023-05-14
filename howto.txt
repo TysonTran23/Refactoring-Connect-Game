@@ -1,0 +1,16 @@
+Part One: Make Game Into a Class
+* Create a class called Game
+* Create a constructor that possess many instance variables that are part of the game
+- This included height and width of the box, players, current players, running the makeBoard () and makeHTMLBoard() to start the game and a instance variable to check if the game is over or not.
+* Had to made sure functions worked together by going through all the code and writing "this" on all the variables and functions
+* There was one function that gave me problem which was the handleClick(evt) function. What I had to do was make sure I bonded that function to the object. 
+
+
+
+Part Two: Small Improvements
+*Created a html button, and then use a eventListener on that button to re run "NEW GAME"
+*You also make the innerHTML of makeHTMLBoard set to = " " so that when you click the button it restarts as well.
+* Made it so you can't pick another item after the game is over by
+-removing the event listener on the top row of the game so that there is no action when you click the top row
+
+Part Three: Make Player a Class
