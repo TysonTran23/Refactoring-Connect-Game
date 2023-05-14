@@ -185,7 +185,7 @@ class Player {
 
 const start = document.querySelector("#start-game");
 start.addEventListener("click", () => {
-  let p1 = document.querySelector("#player1").value;
-  let p2 = document.querySelector("#player2").value;
+  let p1 = new Player(document.querySelector("#player1").value);
+  let p2 = new Player(document.querySelector("#player2").value);
   new Game(1, 2);
 });
